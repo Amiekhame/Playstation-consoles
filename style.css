@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3{
+    line-height: 10px;
+    font-style: italic;
+    padding: 10px 20px;
+    margin: 0.8rem;
+}
+
+p{
+    line-height: 1.4rem;
+    margin: 0.8rem;
+}
+
+#wrapper{
+    max-width: 1400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.header{
+    background-color: brown;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.akube4{
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.akube4 h2, .akube4 p,
+.akube4 h3{
+    padding: 5px;
+    margin: 5px;
+}
+
+
+
+.new4{
+    background-color: orchid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+
+.img-new4{
+    display: flex;
+}
+
+.flex{
+    height: 200px;
+    width: 300px;
+    margin-bottom: 0.8rem;
+}
+
+.akube5{
+    background-color: green;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.new5{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.control{
+    background-color: coral;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-control{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex2{
+    height: 250px;
+    width: 250px;
+
+}
